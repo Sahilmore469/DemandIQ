@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnpm-store/
+
+# Python cache & virtualenvs
+__pycache__/
+backend/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.env.local
+.venv/
+env/
+venv/
+ENV/
+
+# Build outputs
+frontend/dist/
+dist/
+build/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs & temp files
+*.log
+catboost_info/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Raw oversized spreadsheet (cleaned CSV is used by app)
+*.xlsx
+
+# Antigravity artifacts
+.gemini/
